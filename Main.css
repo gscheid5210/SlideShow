@@ -9,10 +9,6 @@
     margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
 
 /* Next & previous buttons */
 .prev,
@@ -45,7 +41,7 @@
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    color: #110303;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -83,9 +79,9 @@
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 30s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 30s;
 }
 
 @-webkit-keyframes fade {
